@@ -97,11 +97,29 @@ textarea {
 
     /* AKI SHOULD ADD CSS HERE */
 
-    .green-background {
-        width: 100%;
-        height: 100px;
-        background: green;
-    }
+  .header-logo {
+    float: left;
+  }
+
+  .site-navigation {
+    float: right;
+    margin: 0 2rem; /* first value, 0 , represents top and bottom, 2 is left and right */
+    font-size: 1.5rem; /* 1 rem = 16px; 2 rem = 32px */
+  }
+
+  .site-navigation > li {
+    display: inline-block;
+    margin: 2rem 0.7rem;
+  }
+
+  .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: "";
+    clear: both;
+    height: 0;
+  }
 
 
 
