@@ -97,6 +97,11 @@ textarea {
 
     /* AKI SHOULD ADD CSS HERE */
 
+
+    /*
+        class  =   .
+        id = #
+     */
   .header-logo {
     float: left;
   }
@@ -121,7 +126,15 @@ textarea {
     height: 0;
   }
 
+img {
+display: inline-block;
+width: 50%;
+}
 
+a:hover img {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
 
 
 
