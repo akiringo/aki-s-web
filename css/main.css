@@ -131,6 +131,11 @@ display: inline-block;
 width: 50%;
 }
 
+a:hover img.hoverimg{
+opacity:0.6;
+filter:alpha(opacity=60);
+-ms-filter: "alpha( opacity=60 )";
+}
 
 
 
