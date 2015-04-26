@@ -102,6 +102,11 @@ textarea {
         class  =   .
         id = #
      */
+
+  * {
+    box-sizing: border-box;
+   }
+
   .header-logo {
     float: left;
   }
@@ -125,18 +130,27 @@ textarea {
     clear: both;
     height: 0;
   }
+  
+    .image-list {
+        margin: 0;
+        padding: 0;
+        font-size: 0;
 
-img {
-display: inline-block;
-width: 50%;
-}
+    }
 
-a:hover img.hoverimg{
-opacity:0.6;
-filter:alpha(opacity=60);
--ms-filter: "alpha( opacity=60 )";
-}
+    .image-list li {
+        display: inline-block;
+        padding: 0;
+        width: 50%;
+        vertical-align: top;
+    }
 
+    .image-list li img {
+        display: block;
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+    }
 
 
 
