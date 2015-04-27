@@ -140,7 +140,7 @@ textarea {
 
     .image-list li {
         display: inline-block;
-        padding: 10px;
+        padding: 1.5px;
         width: 50%;
         vertical-align: top;
     }
@@ -153,7 +153,12 @@ textarea {
     }
 
 
-
+    #footer>p{
+        color:gray;
+        text-align: center;
+        margin: 0;
+    
+    }
 
 
 
